@@ -20,7 +20,17 @@ import androidx.annotation.Nullable;
  */
 @NonNullForAll
 public class Statistics {
-    public record PeerStats(long rxBytes, long txBytes, long latestHandshakeEpochMillis) { }
+    public static class PeerStats {
+        public final long rxBytes;
+        public final long txBytes;
+        public final long latestHandshakeEpochMillis;
+
+        public PeerStats(long rxBytes, long txBytes, long latestHandshakeEpochMillis) {
+            this.rxBytes = rxBytes;
+            this.txBytes = txBytes;
+            this.latestHandshakeEpochMillis = latestHandshakeEpochMillis;
+        }
+    }
     private final Map<Key, PeerStats> stats = new HashMap<>();
     private long lastTouched = SystemClock.elapsedRealtime();
 
