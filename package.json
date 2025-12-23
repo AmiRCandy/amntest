@@ -15,7 +15,7 @@
     "@capacitor/core": "^8.0.0",
     "@ionic/react": "^8.7.14",
     "@ionic/react-router": "^8.7.14",
-    "amnezia-capacitor-plugin": "file:../amnezia-capacitor-plugin",
+    "amnezia-capacitor-plugin": "file:./amnezia-capacitor-plugin",
     "ionicons": "^8.0.13",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
