@@ -5,4 +5,4 @@ project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor
 apply from: 'capacitor.settings.gradle'
 
 include ':tunnel'
-project(':tunnel').projectDir = new File(rootProject.projectDir, '../node_modules/amnezia-capacitor-plugin/tunnel')
+project(':tunnel').projectDir = new File(rootProject.projectDir, '../amnezia-capacitor-plugin/tunnel')
