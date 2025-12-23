@@ -1,0 +1,2 @@
+include ':tunnel'
+project(':tunnel').projectDir = new File('../../tunnel')
