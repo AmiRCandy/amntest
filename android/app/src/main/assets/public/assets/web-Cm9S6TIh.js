@@ -1,0 +1,1 @@
+import{W as e}from"./index-DC3Tyfky.js";class s extends e{async connect(n){throw console.log("AmneziaWG connect",n),new Error("Web not supported. Use Android/iOS.")}async disconnect(){return console.log("AmneziaWG disconnect"),{status:"disconnected"}}async getStatus(){return{status:"disconnected"}}}export{s as AmneziaWGWeb};

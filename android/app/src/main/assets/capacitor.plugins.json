@@ -1,0 +1,6 @@
+[
+	{
+		"pkg": "amnezia-capacitor-plugin",
+		"classpath": "com.amnezia.capacitor.AmneziaWGPlugin"
+	}
+]
